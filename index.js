@@ -29,4 +29,7 @@ var gunzip = function (maxRecursion) {
   })
 }
 
-exports default gunzip
+module.exports = {
+  gunzip,
+  default: gunzip,
+}
